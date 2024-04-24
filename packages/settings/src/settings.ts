@@ -117,7 +117,7 @@ export class Settings implements ISettings {
         return {
           ...Private.override(plugin),
           raw,
-          settings: json5.parse(raw),
+          settings: JSON5.parse(raw),
         };
       }),
     );

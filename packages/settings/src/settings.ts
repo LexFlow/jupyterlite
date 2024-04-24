@@ -2,7 +2,7 @@ import { PageConfig, URLExt } from '@jupyterlab/coreutils';
 
 import { PromiseDelegate } from '@lumino/coreutils';
 
-import * as json5 from 'json5';
+import JSON5 from 'json5';
 
 import type localforage from 'localforage';
 
